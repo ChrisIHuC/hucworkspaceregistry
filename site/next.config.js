@@ -2,15 +2,15 @@
 
 const nextConfig = {
   env: {
-    name: 'Kasm Technologies',
-    description: 'The official store for Kasm supported workspaces.',
+    name: 'HuC Kasm Workspace Registry',
+    description: 'Kasm Workspaces',
     icon: '/img/logo.svg',
-    listUrl: 'https://registry.kasmweb.com/',
-    contactUrl: 'https://kasmweb.com/support',
+    listUrl: 'https://chrisihuc.github.io/hucworkspaceregistry/1.0/',
+    contactUrl: 'https://di.huc.knaw.nl/',
   },
   reactStrictMode: true,
   swcMinify: true,
-  basePath: '/kasm-registry/1.0',
+  basePath: '/hucworkspaceregistry/1.0',
   trailingSlash: true,
   images: {
     unoptimized: true,
